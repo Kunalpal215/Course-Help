@@ -1,0 +1,291 @@
+body {
+    background-color: #F5E5E5;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    background-color: #F5E5E5;
+    margin: auto;
+}
+
+.head {
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 3px;
+    display: flex;
+    height: 60px;
+    background-color: #B9A197;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+#headHeading {
+    font-size: 45px;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+#info {
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.horLine {
+    width: 600px;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.comSem {
+    width: 80%;
+    margin: 0px auto;
+    background-color: rgb(167 179 211);
+    padding-top: 7px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.comHead {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin: 5px 5px 8px 5px;
+}
+
+.comSemTit {
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deptChoice {
+    width: 80%;
+    background-color: #ED9E42;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+
+.deptPara {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin: 5px 5px 8px 5px;
+}
+
+.dept {
+    height: 150px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items {
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    height: 35px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+
+.items:hover {
+    background-color: rgb(241, 220, 220);
+}
+
+.minorChoice {
+    width: 75%;
+    background-color: #b7bb93;
+    margin: 0px auto;
+    padding-top: 5px;
+    border-radius: 12px;
+    padding-bottom: 18px;
+}
+
+.minorPara {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.minorDept {
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.minorItems {
+    width: 80px;
+    height: 37px;
+    background-color: rgb(90, 85, 68);
+    border-radius: 10px;
+    margin: 10px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.minorItems:hover {
+    background-color: rgb(158, 98, 70);
+}
+
+.minorName {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 419px) {
+    .logo {
+        margin-right: 20px;
+        width: 40px;
+        margin-left: 10px;
+    }
+    #headHeading {
+        font-size: 22px;
+    }
+    #info {
+        width: 80%;
+        font-size: 20px;
+    }
+    .horLine {
+        width: 60%;
+    }
+    .deptPara {
+        font-size: 23px;
+    }
+    .comHead {
+        font-size: 23px;
+    }
+    .items {
+        width: 200px;
+        height: 30px;
+        font-size: 21px;
+    }
+    .minorPara {
+        font-size: 24px;
+        margin: 10px 5px;
+    }
+    .minorDept {
+        padding-bottom: 20px;
+    }
+    .minorItems {
+        width: 65px;
+        height: 33px;
+        font-size: 22px;
+        margin: 6px 4px;
+    }
+}
+
+@media screen and (min-width:420px) and (max-width: 545px) {
+    .container {
+        overflow: hidden;
+    }
+    .head {
+        justify-content: center;
+    }
+    .logo {
+        margin-left: 10px;
+        width: 35px;
+        margin-right: 16px;
+    }
+    #headHeading {
+        margin: 0px;
+        font-size: 28px;
+        margin-right: 2px;
+    }
+    #info {
+        width: 90%;
+        font-size: 18px;
+    }
+    .horLine {
+        width: 60%;
+    }
+    .comHead {
+        font-size: 24px;
+    }
+    .deptPara {
+        font-size: 24px;
+    }
+    .items {
+        width: 220px;
+        height: 33px;
+        font-size: 20px;
+    }
+    .minorPara {
+        font-size: 23px;
+    }
+    .minorItems {
+        width: 75px;
+        height: 35px;
+        font-size: 20px;
+        margin: 10px 4px;
+    }
+}
+
+@media screen and (max-width:818px) and (min-width:546px) {
+    .container {
+        overflow: hidden;
+    }
+    .head {
+        justify-content: center;
+    }
+    .logo {
+        margin-left: 0px;
+        width: 43px;
+    }
+    #headHeading {
+        margin: 0px;
+        font-size: 35px;
+    }
+    #info {
+        width: 90%;
+        font-size: 20px;
+    }
+    .horLine {
+        width: 60%;
+    }
+    .deptPara {
+        font-size: 25px;
+    }
+    .comHead {
+        font-size: 25px;
+    }
+    .items {
+        font-size: 24px;
+    }
+    .minorPara {
+        font-size: 24px;
+    }
+}
